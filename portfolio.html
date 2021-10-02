@@ -40,8 +40,27 @@
           </ul>
         </nav>
         <div class="header-contacts">
-          <a href="" class="contact-link link">info@devstudio.com</a>
-          <a href="" class="contact-link link">+38 096 111 11 11</a>
+          <ul class="header-contacts-list">
+            <li class="header-contacts-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="header-contacts-link link"
+              >
+                <svg class="header-contacts-icon" width="16" height="12">
+                  <use href="./images/sprite.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="header-contacts-item">
+              <a href="tel:+380961111111" class="header-contacts-link link">
+                <svg class="header-contacts-icon" width="10" height="16">
+                  <use href="./images/sprite.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -51,26 +70,26 @@
           <!--убрать заголовок его нет в фигме-->
           <h1 style="display: none">Все прортфолио</h1>
           <ul class="portfolio-list">
-            <li class="potfolio-item">
-              <button type="button" class="potfolio-link-btn btn">Все</button>
+            <li class="portfolio-item">
+              <button type="button" class="portfolio-link-btn btn">Все</button>
             </li>
-            <li class="potfolio-item">
-              <button type="button" class="potfolio-link-btn btn">
+            <li class="portfolio-item">
+              <button type="button" class="portfolio-link-btn btn">
                 Веб-сайты
               </button>
             </li>
-            <li class="potfolio-item">
-              <button type="button" class="potfolio-link-btn btn">
+            <li class="portfolio-item">
+              <button type="button" class="portfolio-link-btn btn">
                 Приложения
               </button>
             </li>
-            <li class="potfolio-item">
-              <button type="button" class="potfolio-link-btn btn">
+            <li class="portfolio-item">
+              <button type="button" class="portfolio-link-btn btn">
                 Дизайн
               </button>
             </li>
-            <li class="potfolio-item">
-              <button type="button" class="potfolio-link-btn btn">
+            <li class="portfolio-item">
+              <button type="button" class="portfolio-link-btn btn">
                 Маркетинг
               </button>
             </li>
@@ -212,20 +231,55 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <a href="WebStudio" class="footer-logo logo link">
-          <span class="accent">Web</span>Studio</a
-        >
-        <address class="address">
-          <a class="address-address link" href=""
-            >г. Киев, пр-т Леси Украинки, 26</a
+        <div class="footer-contacts-container">
+          <a href="WebStudio" class="footer-logo logo link">
+            <span class="accent">Web</span>Studio</a
           >
-          <a class="address-mail link" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-          <a class="address-tel link" href="tel:+380991111111"
-            >+38 099 111 11 11</a
-          >
-        </address>
+          <address class="address">
+            <a class="address-address link" href=""
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+            <a class="address-mail link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+            <a class="address-tel link" href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </address>
+        </div>
+        <div class="comin">
+          <h2 class="comin-title">ПРИСОЕДИНЯЙТЕСЬ</h2>
+          <ul class="social-list list">
+            <li class="social-item">
+              <a class="social-link footer-social-link link" href="">
+                <svg class="social-icon">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link footer-social-link link" href="">
+                <svg class="social-icon">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link footer-social-link link" href="">
+                <svg class="social-icon">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link footer-social-link link" href="">
+                <svg class="social-icon">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
